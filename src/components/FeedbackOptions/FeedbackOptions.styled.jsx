@@ -6,4 +6,7 @@ export const Button = styled.button`
   box-shadow: 4px 4px 4px rgb(0 0 0 / 15%);
   font-weight: bold;
   cursor: pointer;
+  
+    &:not(:last-child) {
+    margin-right: 10px;
 `;
