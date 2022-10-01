@@ -39,9 +39,9 @@ export default  function App() {
     return Math.round((good * 100) / result);
   };
 
-  const feedbacks = ['good', 'neutral', 'bad'];
-
-    return (
+  const feedbacks = Object.keys({ good, neutral, bad });
+    
+  return (
       <>
         <Section title="Please leave feedback" >
           <FeedbackOptions
